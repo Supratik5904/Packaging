@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.16.
 
+## Mock JSON Server 
+
+Run npm install -g json-server and then run "json-server --watch db.json --port 3000" to run the mock APIs.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
