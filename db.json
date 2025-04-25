@@ -1,0 +1,598 @@
+{
+  "estimate": [
+    {
+      "id": "1",
+      "unitPrice": 12.5,
+      "sizeTable": [
+        {
+          "standardSize": "12x18",
+          "ups": 4,
+          "noOfSheets": 100
+        },
+        {
+          "standardSize": "13x19",
+          "ups": 2,
+          "noOfSheets": 80
+        }
+      ],
+      "totalPaperCost": 1200,
+      "pasteCost": 300,
+      "printCost": 500,
+      "punchingCost": 200,
+      "dieCost": 150
+    },
+    {
+      "id": "4632",
+      "customerName": "Supratik. De",
+      "customerPhone": "09088460418",
+      "customerEmail": "desupratik5904@gmail.com",
+      "productSize": {
+        "length": 12,
+        "breadth": 12
+      },
+      "bleed": 3,
+      "boardCompany": "JK Paper",
+      "boardList": {
+        "fullName": "",
+        "gsmValue": null,
+        "length": null,
+        "breadth": null,
+        "price": null,
+        "type": ""
+      },
+      "dieCost": 1,
+      "lamination": "",
+      "surfaceProtection": "Hybrid",
+      "additionalOptions": "Embossing",
+      "printingRate": 1,
+      "processColor": "1",
+      "productQuantity": 111,
+      "dhlCost": 11,
+      "profit": 11
+    },
+    {
+      "id": "c924",
+      "customerName": "Supratik. De",
+      "customerPhone": "09088460418",
+      "customerEmail": "desupratik5904@gmail.com",
+      "productSize": {
+        "length": 1,
+        "breadth": 1
+      },
+      "bleed": 1,
+      "boardCompany": "ITC",
+      "boardList": {
+        "fullName": "",
+        "gsmValue": null,
+        "length": null,
+        "breadth": null,
+        "price": null,
+        "type": ""
+      },
+      "dieCost": 1,
+      "lamination": "",
+      "surfaceProtection": "Hybrid",
+      "additionalOptions": "Foiling",
+      "printingRate": 11,
+      "processColor": "11",
+      "productQuantity": 11,
+      "dhlCost": 11,
+      "profit": 11
+    },
+    {
+      "id": "2c49",
+      "customerName": "Supratik. De",
+      "customerPhone": "09088460418",
+      "customerEmail": "desupratik5904@gmail.com",
+      "productSize": {
+        "length": 1,
+        "breadth": 1
+      },
+      "bleed": 11,
+      "boardCompany": "ITC",
+      "boardList": {
+        "fullName": "",
+        "gsmValue": null,
+        "length": null,
+        "breadth": null,
+        "price": null,
+        "type": ""
+      },
+      "dieCost": 0,
+      "lamination": "",
+      "surfaceProtection": "Hybrid",
+      "additionalOptions": "Foiling",
+      "printingRate": 1,
+      "processColor": "1",
+      "productQuantity": 1,
+      "dhlCost": 1,
+      "profit": 11
+    },
+    {
+      "id": "b576",
+      "customerName": "Supratik. De",
+      "customerPhone": "09088460418",
+      "customerEmail": "desupratik5904@gmail.com",
+      "productSize": {
+        "length": 1,
+        "breadth": 1
+      },
+      "bleed": 11,
+      "boardCompany": "ITC",
+      "boardList": {
+        "fullName": "",
+        "gsmValue": null,
+        "length": null,
+        "breadth": null,
+        "price": null,
+        "type": ""
+      },
+      "dieCost": 0,
+      "lamination": "",
+      "surfaceProtection": "Hybrid",
+      "additionalOptions": "Foiling",
+      "printingRate": 1,
+      "processColor": "1",
+      "productQuantity": 1,
+      "dhlCost": 1,
+      "profit": 11
+    },
+    {
+      "id": "c753",
+      "customerName": "Supratik. De",
+      "customerPhone": "09088460418",
+      "customerEmail": "desupratik5904@gmail.com",
+      "productSize": {
+        "length": 1,
+        "breadth": 1
+      },
+      "bleed": 11,
+      "boardCompany": "ITC",
+      "boardList": {
+        "fullName": "",
+        "gsmValue": null,
+        "length": null,
+        "breadth": null,
+        "price": null,
+        "type": ""
+      },
+      "dieCost": 0,
+      "lamination": "",
+      "surfaceProtection": "Hybrid",
+      "additionalOptions": "Foiling",
+      "printingRate": 1,
+      "processColor": "1",
+      "productQuantity": 1,
+      "dhlCost": 1,
+      "profit": 11
+    },
+    {
+      "id": "9a6e",
+      "customerName": "Supratik. De",
+      "customerPhone": "09088460418",
+      "customerEmail": "desupratik5904@gmail.com",
+      "productSize": {
+        "length": 1,
+        "breadth": 1
+      },
+      "bleed": 11,
+      "boardCompany": "ITC",
+      "boardList": {
+        "fullName": "",
+        "gsmValue": null,
+        "length": null,
+        "breadth": null,
+        "price": null,
+        "type": ""
+      },
+      "dieCost": 0,
+      "lamination": "",
+      "surfaceProtection": "Hybrid",
+      "additionalOptions": "Foiling",
+      "printingRate": 1,
+      "processColor": "1",
+      "productQuantity": 1,
+      "dhlCost": 1,
+      "profit": 11
+    },
+    {
+      "id": "fd56",
+      "customerName": "Supratik. De",
+      "customerPhone": "09088460418",
+      "customerEmail": "desupratik5904@gmail.com",
+      "productSize": {
+        "length": 1,
+        "breadth": 1
+      },
+      "bleed": 11,
+      "boardCompany": "ITC",
+      "boardList": {
+        "fullName": "",
+        "gsmValue": null,
+        "length": null,
+        "breadth": null,
+        "price": null,
+        "type": ""
+      },
+      "dieCost": 0,
+      "lamination": "",
+      "surfaceProtection": "Hybrid",
+      "additionalOptions": "Foiling",
+      "printingRate": 1,
+      "processColor": "1",
+      "productQuantity": 1,
+      "dhlCost": 1,
+      "profit": 11
+    },
+    {
+      "id": "9031",
+      "customerName": "Supratik. De",
+      "customerPhone": "09088460418",
+      "customerEmail": "desupratik5904@gmail.com",
+      "productSize": {
+        "length": 1,
+        "breadth": 1
+      },
+      "bleed": 11,
+      "boardCompany": "ITC",
+      "boardList": {
+        "fullName": "",
+        "gsmValue": null,
+        "length": null,
+        "breadth": null,
+        "price": null,
+        "type": ""
+      },
+      "dieCost": 0,
+      "lamination": "",
+      "surfaceProtection": "Hybrid",
+      "additionalOptions": "Foiling",
+      "printingRate": 1,
+      "processColor": "1",
+      "productQuantity": 1,
+      "dhlCost": 1,
+      "profit": 11
+    },
+    {
+      "id": "0e05",
+      "customerName": "Supratik. De",
+      "customerPhone": "09088460418",
+      "customerEmail": "desupratik5904@gmail.com",
+      "productSize": {
+        "length": 1,
+        "breadth": 1
+      },
+      "bleed": 11,
+      "boardCompany": "ITC",
+      "boardList": {
+        "fullName": "",
+        "gsmValue": null,
+        "length": null,
+        "breadth": null,
+        "price": null,
+        "type": ""
+      },
+      "dieCost": 0,
+      "lamination": "",
+      "surfaceProtection": "Hybrid",
+      "additionalOptions": "Foiling",
+      "printingRate": 1,
+      "processColor": "1",
+      "productQuantity": 1,
+      "dhlCost": 1,
+      "profit": 11
+    },
+    {
+      "id": "026f",
+      "customerName": "Supratik. De",
+      "customerPhone": "09088460418",
+      "customerEmail": "desupratik5904@gmail.com",
+      "productSize": {
+        "length": 1,
+        "breadth": 1
+      },
+      "bleed": 11,
+      "boardCompany": "ITC",
+      "boardList": {
+        "fullName": "",
+        "gsmValue": null,
+        "length": null,
+        "breadth": null,
+        "price": null,
+        "type": ""
+      },
+      "dieCost": 0,
+      "lamination": "",
+      "surfaceProtection": "Hybrid",
+      "additionalOptions": "Foiling",
+      "printingRate": 1,
+      "processColor": "1",
+      "productQuantity": 1,
+      "dhlCost": 1,
+      "profit": 11
+    },
+    {
+      "id": "7a3f",
+      "customerName": "Supratik. De",
+      "customerPhone": "09088460418",
+      "customerEmail": "desupratik5904@gmail.com",
+      "productSize": {
+        "length": 1,
+        "breadth": 1
+      },
+      "bleed": 11,
+      "boardCompany": "ITC",
+      "boardList": {
+        "fullName": "",
+        "gsmValue": null,
+        "length": null,
+        "breadth": null,
+        "price": null,
+        "type": ""
+      },
+      "dieCost": 0,
+      "lamination": "",
+      "surfaceProtection": "Hybrid",
+      "additionalOptions": "Foiling",
+      "printingRate": 1,
+      "processColor": "1",
+      "productQuantity": 1,
+      "dhlCost": 1,
+      "profit": 11
+    },
+    {
+      "id": "b057",
+      "customerName": "Supratik. De",
+      "customerPhone": "09088460418",
+      "customerEmail": "desupratik5904@gmail.com",
+      "productSize": {
+        "length": 1,
+        "breadth": 1
+      },
+      "bleed": 1,
+      "boardCompany": "ITC",
+      "boardList": {
+        "fullName": "",
+        "gsmValue": null,
+        "length": null,
+        "breadth": null,
+        "price": null,
+        "type": ""
+      },
+      "dieCost": 1,
+      "lamination": "",
+      "surfaceProtection": "Hybrid",
+      "additionalOptions": "Foiling",
+      "printingRate": 1,
+      "processColor": "1",
+      "productQuantity": 1,
+      "dhlCost": 1,
+      "profit": 11
+    },
+    {
+      "id": "ffff",
+      "customerName": "",
+      "customerPhone": null,
+      "customerEmail": "",
+      "productSize": {
+        "length": null,
+        "breadth": null
+      },
+      "bleed": null,
+      "boardCompany": "",
+      "boardList": {
+        "fullName": "",
+        "gsmValue": null,
+        "length": null,
+        "breadth": null,
+        "price": null,
+        "type": ""
+      },
+      "dieCost": null,
+      "lamination": "",
+      "surfaceProtection": "",
+      "additionalOptions": "",
+      "printingRate": null,
+      "processColor": "",
+      "productQuantity": null,
+      "dhlCost": null,
+      "profit": null
+    },
+    {
+      "id": "f8b9",
+      "customerName": "",
+      "customerPhone": null,
+      "customerEmail": "",
+      "productSize": {
+        "length": null,
+        "breadth": null
+      },
+      "bleed": null,
+      "boardCompany": "",
+      "boardList": {
+        "fullName": "",
+        "gsmValue": null,
+        "length": null,
+        "breadth": null,
+        "price": null,
+        "type": ""
+      },
+      "dieCost": null,
+      "lamination": "",
+      "surfaceProtection": "",
+      "additionalOptions": "",
+      "printingRate": null,
+      "processColor": "",
+      "productQuantity": null,
+      "dhlCost": null,
+      "profit": null
+    },
+    {
+      "id": "3957",
+      "customerName": "",
+      "customerPhone": null,
+      "customerEmail": "",
+      "productSize": {
+        "length": null,
+        "breadth": null
+      },
+      "bleed": null,
+      "boardCompany": "",
+      "boardList": {
+        "fullName": "",
+        "gsmValue": null,
+        "length": null,
+        "breadth": null,
+        "price": null,
+        "type": ""
+      },
+      "dieCost": null,
+      "lamination": "",
+      "surfaceProtection": "",
+      "additionalOptions": "",
+      "printingRate": null,
+      "processColor": "",
+      "productQuantity": null,
+      "dhlCost": null,
+      "profit": null
+    },
+    {
+      "id": "b0fd",
+      "customerName": "",
+      "customerPhone": null,
+      "customerEmail": "",
+      "productSize": {
+        "length": null,
+        "breadth": null
+      },
+      "bleed": null,
+      "boardCompany": "",
+      "boardList": {
+        "fullName": "",
+        "gsmValue": null,
+        "length": null,
+        "breadth": null,
+        "price": null,
+        "type": ""
+      },
+      "dieCost": null,
+      "lamination": "",
+      "surfaceProtection": "",
+      "additionalOptions": "",
+      "printingRate": null,
+      "processColor": "",
+      "productQuantity": null,
+      "dhlCost": null,
+      "profit": null
+    },
+    {
+      "id": "3d26",
+      "customerName": "",
+      "customerPhone": null,
+      "customerEmail": "",
+      "productSize": {
+        "length": null,
+        "breadth": null
+      },
+      "bleed": null,
+      "boardCompany": "",
+      "boardList": {
+        "fullName": "",
+        "gsmValue": null,
+        "length": null,
+        "breadth": null,
+        "price": null,
+        "type": ""
+      },
+      "dieCost": null,
+      "lamination": "",
+      "surfaceProtection": "",
+      "additionalOptions": "",
+      "printingRate": null,
+      "processColor": "",
+      "productQuantity": null,
+      "dhlCost": null,
+      "profit": null
+    },
+    {
+      "id": "4dfe",
+      "customerName": "",
+      "customerPhone": null,
+      "customerEmail": "",
+      "productSize": {
+        "length": null,
+        "breadth": null
+      },
+      "bleed": null,
+      "boardCompany": "",
+      "boardList": {
+        "fullName": "",
+        "gsmValue": null,
+        "length": null,
+        "breadth": null,
+        "price": null,
+        "type": ""
+      },
+      "dieCost": null,
+      "lamination": "",
+      "surfaceProtection": "",
+      "additionalOptions": "",
+      "printingRate": null,
+      "processColor": "",
+      "productQuantity": null,
+      "dhlCost": null,
+      "profit": null
+    },
+    {
+      "id": "5f61",
+      "customerName": "",
+      "customerPhone": null,
+      "customerEmail": "",
+      "productSize": {
+        "length": null,
+        "breadth": null
+      },
+      "bleed": null,
+      "boardCompany": "",
+      "boardList": {
+        "fullName": "",
+        "gsmValue": null,
+        "length": null,
+        "breadth": null,
+        "price": null,
+        "type": ""
+      },
+      "dieCost": null,
+      "lamination": "",
+      "surfaceProtection": "",
+      "additionalOptions": "",
+      "printingRate": null,
+      "processColor": "",
+      "productQuantity": null,
+      "dhlCost": null,
+      "profit": null
+    }
+  ],
+  "boards": {
+    "ITC": [
+      {
+        "fullName": "ITC Cyber X",
+        "gsmValue": 300,
+        "length": 30,
+        "breadth": 40,
+        "price": 20,
+        "type": "Duplex"
+      }
+    ],
+    "JK Paper": [
+      {
+        "fullName": "JK Board A1",
+        "gsmValue": 250,
+        "length": 32,
+        "breadth": 42,
+        "price": 22,
+        "type": "FBB"
+      }
+    ]
+  }
+}

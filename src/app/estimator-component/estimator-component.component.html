@@ -1,0 +1,197 @@
+<div class="form">
+    <h2>Price Quotation</h2>
+    <form [formGroup]="estimatorForm">
+        <mat-form-field appearance="fill" class="full-width">
+            <mat-label>Customer Name</mat-label>
+            <input matInput formControlName="customerName">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="full-width">
+            <mat-label>Customer Phone</mat-label>
+            <input matInput type="tel" formControlName="customerPhone">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="full-width">
+            <mat-label>Customer Email</mat-label>
+            <input matInput formControlName="customerEmail">
+        </mat-form-field>
+
+        <div class="row" formGroupName="productSize">
+            <mat-form-field appearance="fill" class="half-width">
+                <mat-label>Box Length</mat-label>
+                <input matInput type="number" formControlName="length">
+            </mat-form-field>
+            <mat-form-field appearance="fill" class="half-width">
+                <mat-label>Box Breadth</mat-label>
+                <input matInput type="number" formControlName="breadth">
+            </mat-form-field>
+        </div>
+
+        <mat-form-field appearance="fill" class="full-width">
+            <mat-label>Bleed</mat-label>
+            <input matInput type="number" formControlName="bleed">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="full-width">
+            <mat-label>Board Company</mat-label>
+            <mat-select formControlName="boardCompany">
+                <mat-option *ngFor="let company of boardCompanies" [value]="company">
+                    {{ company }}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <div formGroupName="boardList" class="row">
+            <mat-form-field appearance="fill" class="full-width">
+                <mat-label>Board Name</mat-label>
+                <mat-select formControlName="fullName">
+                    <mat-option *ngFor="let board of boardListFromAPI" [value]="board.fullName">
+                        {{ board.fullName }}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+
+            <mat-form-field appearance="fill" class="half-width">
+                <mat-label>GSM</mat-label>
+                <mat-select formControlName="gsmValue">
+                    <mat-option *ngFor="let board of boardListFromAPI" [value]="board.gsmValue">
+                        {{ board.gsmValue }}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+
+            <mat-form-field appearance="fill" class="half-width">
+                <mat-label>Board Length</mat-label>
+                <mat-select formControlName="length">
+                    <mat-option *ngFor="let board of boardListFromAPI" [value]="board.length">
+                        {{ board.length }}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+
+            <mat-form-field appearance="fill" class="half-width">
+                <mat-label>Board Breadth</mat-label>
+                <mat-select formControlName="breadth">
+                    <mat-option *ngFor="let board of boardListFromAPI" [value]="board.breadth">
+                        {{ board.breadth }}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+
+            <mat-form-field appearance="fill" class="half-width">
+                <mat-label>Board Type</mat-label>
+                <mat-select formControlName="type">
+                    <mat-option *ngFor="let board of boardListFromAPI" [value]="board.type">
+                        {{ board.type }}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+
+        <mat-form-field appearance="fill" class="full-width">
+            <mat-label>Die Cost</mat-label>
+            <input matInput type="number" formControlName="dieCost">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="full-width">
+            <mat-label>Lamination</mat-label><mat-select>
+                <mat-option *ngFor="let option of lamination" [value]="option">{{option}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="full-width">
+            <mat-label>Surface Protection</mat-label><mat-select formControlName="surfaceProtection">
+                <mat-option *ngFor="let option of surfaceProtection" [value]="option">{{option}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="full-width">
+            <mat-label>Additional Options</mat-label>
+            <mat-select formControlName="additionalOptions">
+                <mat-option *ngFor="let option of additionalOptions" [value]="option">{{ option }}</mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="full-width">
+            <mat-label>Printing Rate</mat-label>
+            <input matInput type="number" formControlName="printingRate">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="full-width">
+            <mat-label>Process Color</mat-label>
+            <input matInput formControlName="processColor">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="full-width">
+            <mat-label>Product Quantity</mat-label>
+            <input matInput type="number" formControlName="productQuantity">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="full-width">
+            <mat-label>DHL Cost</mat-label>
+            <input matInput type="number" formControlName="dhlCost">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="full-width">
+            <mat-label>Profit (%)</mat-label>
+            <input matInput type="number" formControlName="profit">
+        </mat-form-field>
+
+        <button mat-raised-button color="primary" type="submit" (click)="onSubmit(resultContent)">Calculate Estimate</button>
+    </form>
+</div>
+<ng-template #resultContent let-modal>
+	<div class="modal-header">
+		<h4 class="modal-title">Price Breakup</h4>
+		<button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+	</div>
+	<div class="modal-body">
+        <section>Unit Price: 100</section>
+        <section>
+            <p>Cost Breakup:</p>
+            <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col">Process Name</th>
+                    <th scope="col">Cost</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Punching Cost</td>
+                    <td>100</td>
+                  </tr>
+                  <tr>
+                    <td>Printing Cost</td>
+                    <td>150</td>
+                  </tr>
+                  <tr>
+                    <td>Pasting Cost</td>
+                    <td>200</td>
+                  </tr>
+                  <tr>
+                    <td>Die Cost</td>
+                    <td>200</td>
+                  </tr>
+                </tbody>
+              </table>
+        </section>
+		<section>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Standard Sizes</th>
+                    <th scope="col">Ups</th>
+                    <th scope="col">Number of Sheets</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  
+                </tbody>
+              </table>
+        </section>
+	</div>
+	<div class="modal-footer">
+		<button type="button" class="btn btn-secondary" (click)="modal.close('Close click')">Close</button>
+	</div>
+</ng-template>

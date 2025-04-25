@@ -1,0 +1,40 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 64px;
+    display: flex;
+    align-items: center;
+    color: white;
+  
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      padding-left: 16px;
+    }
+  
+    nav {
+      display: flex;
+      gap: 8px;
+  
+      button {
+        color: blue;
+        font-weight: 500;
+        box-sizing: border-box;
+        border-radius: 10%;
+        border-color: aliceblue;
+        box-shadow: none;
+        &:hover {
+          background-color: white
+        }
+      }
+    }
+  
+    .spacer {
+      flex: 1 1 auto;
+    }
+  }
+  
+  
